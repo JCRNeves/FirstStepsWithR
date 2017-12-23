@@ -1,0 +1,34 @@
+This file has been created in the local repo
+
+
+
+cd ~
+
+git
+
+git config --global user.name "João Neves"
+
+git config --global user.email "joaocarlosraposoneves@gmail.com"
+git config --list
+git config --list
+
+cd Documents/
+mkdir FirstStepsWithR
+git init
+
+git remote add origin https://github.com/JCRNeves/FirstStepsWithR.git
+
+git pull origin master
+
+echo 'This file has been created in the local repo' > newTextFile.txt
+git add .
+git commit -m "first commit"
+git push --set-upstream origin master
+
+
+#CREATE NEW BRANCH
+
+git checkout -b testbranch
+git branch
+
+git checkout master
