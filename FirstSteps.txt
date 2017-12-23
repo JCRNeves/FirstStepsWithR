@@ -1,0 +1,8 @@
+Install R
+Install RStudio
+Install Rtools
+Open R and 
+	1) type install.packages("devtools")
+	2) type library(devtools)
+	3) type find_rtools() and check if returns TRUE
+
